@@ -10,8 +10,8 @@ class Mydate:
 
 class AutenticavelMixIn:
 
-    def autentica(self, senha):
-        if self._senha == senha:
+    def autentica(self, password):
+        if self._password == password:
             print("acesso permitido")
             return True
         else:

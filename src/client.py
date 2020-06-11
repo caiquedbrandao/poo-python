@@ -13,7 +13,8 @@ class Client:
         self._last_name = last_name
         self._cpf = cpf
         self._birth_date = datetime.datetime.strptime(
-            birth_date, '%d/%m/%Y').date()
+            birth_date, '%d/%m/%Y'
+        ).date()
 
     def __str__(self):
         return "Nome: {} | CPF {}".format(self._name, self._cpf)
