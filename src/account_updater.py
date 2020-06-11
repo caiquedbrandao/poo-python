@@ -16,5 +16,5 @@ class AccountUpdater(ABC):
     def update(self, account):
         account.statement()
         account.update(self._selic)
-        self._total_balance = account.balance
+        self._total_balance += account.balance
         account.statement()
