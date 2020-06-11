@@ -1,1 +1,4 @@
+*.pyc
+*~
+__pycache__
 arquivo_que_deve_ser_ignorado.txt
